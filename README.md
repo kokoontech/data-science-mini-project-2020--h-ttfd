@@ -1,6 +1,6 @@
 # Data Science Mini Project
 
-
+![alt text](https://github.com/kokoontech/data-science-mini-project-2020--h-ttfd/blob/master/housesbanner.png)
 
 ## Description
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
@@ -14,12 +14,16 @@ Advanced regression techniques like random forest and gradient boosting
 ## Goal
 It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable. 
 
-## Metric
-Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
+We want to minimise the Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
 
-## Submission File Format
+## Reporting and Approach
+Rationale behind each decision must be explained. It isn't necessary to write algorithms from scratch, and feel free to leverage common libraries such as scikit-learn. Preferably submit in python, but other languages are acceptable. Data visualisation and exploration is encouraged. A well written and well thought out approach with modest performances is preferable over performance alone.
+
+## Submission File Format and Coding Environment
+
+The coding environment used and the experimental results should be well documented and easily reproducible.
+
 The file should contain a header and have the following format:
-
 ```
 Id,SalePrice
 1461,169000.1
@@ -27,4 +31,4 @@ Id,SalePrice
 1463,175221
 etc.
 ```
-see [submit file format](/
+see sample_submission.csv for an example of the correct submission format.
