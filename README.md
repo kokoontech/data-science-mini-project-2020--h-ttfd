@@ -3,12 +3,15 @@
 ![alt text](https://github.com/kokoontech/data-science-mini-project-2020--h-ttfd/blob/master/housesbanner.png)
 
 ## Description
-Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
 
-With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
+The dataset has 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, US.
+
+Training and test datasets can be found in /data/.
 
 ## Skills
 Creative feature engineering 
+
 Advanced regression techniques like random forest and gradient boosting
 
 ## Goal
@@ -31,4 +34,8 @@ Id,SalePrice
 1463,175221
 etc.
 ```
-see sample_submission.csv for an example of the correct submission format.
+see /data/sample_submission.csv for an example of the correct submission format.
+
+Upload your completed project to *your* GitHub, and then paste a link to the repository in the Coderbyte form along with any comments you have about your solution.
+
+Good luck!
